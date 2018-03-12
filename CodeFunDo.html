@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="CFDjs.js"></script>
+<link href="CFDcss.css" rel="stylesheet">
+<div style="font-family: Comic Sans MS;color:white;font-size:65px;">StatusStyler</div>
+<body style="background-color:#0000FF">
+<div class="fillclass">
+<input type="text" id="entertext" placeholder="Click here & type!!!" value="" onkeydown="addstr(event)">
+<input type=button id="previewtext" value="Preview can be seen here" >
+<input type ="button" value="Preview" style="background-color:#FFFF00;font-size:25px;font-family: Segoe UI;" onclick=changetext(document.getElementById('fontbutton').value)>
+</div>
+<div class="prevclass" >
+<input type ="button" id="fontbutton" style="font-family:Segoe UI" value="Segoe UI" >
+  <input type ="button" id="colorbutton" style="background-color:#000000"></div>
+
+</div>
+
+</div>
+
+
+  <div class="fontclass">
+  <tr>
+     <input id="ge" type=button style="font-family:Georgia" value="Georgia" onclick="changetext(document.getElementById('ge').value)">
+     <input id=cs type=button  style="font-family:Comic Sans MS" value="Comic Sans MS" onclick=changetext(document.getElementById('cs').value)>
+     <input id=im type=button style="font-family:Impact" value="Impact" onclick=changetext(document.getElementById('im').value)>
+     <input id=lu type=button style="font-family:Lucida Sans Unicode" value="Lucida Sans Unicode" onclick=changetext(document.getElementById('lu').value)>
+     <input id=ta type=button style="font-family:Corbel" value="Corbel" onclick=changetext(document.getElementById('ta').value)>
+     <input id=ver type=button style="font-family:Papyrus" value="Papyrus" onclick=changetext(document.getElementById('ver').value)>
+     <input id=cou type=button style="font-family:Courier" value="Courier" onclick=changetext(document.getElementById('cou').value)>
+     </tr>
+  </div>
+
+  
+  <div class="colorclass">
+     <input id="a1" type ="button" style="background-color:#FF0000" onclick=changecolor(document.getElementById('a1').style.backgroundColor)>
+     <input id=a2 type ="button" style="background-color:#2E8B57" onclick=changecolor(document.getElementById('a2').style.backgroundColor)>
+     <input id=a3 type ="button" style="background-color:#4682B4" onclick=changecolor(document.getElementById('a3').style.backgroundColor)>
+     <input id=a4 type ="button" style="background-color:#FFFF00" onclick=changecolor(document.getElementById('a4').style.backgroundColor)>
+     <input id=a5 type ="button" style="background-color:#F5DEB3" onclick=changecolor(document.getElementById('a5').style.backgroundColor)>
+     <input id=a6 type ="button" style="background-color:#6A5ACD" onclick=changecolor(document.getElementById('a6').style.backgroundColor)>
+     <input id=a7 type ="button" style="background-color:#000080" onclick=changecolor(document.getElementById('a7').style.backgroundColor)>
+
+    </div>
+
+<div id='wrapper'></div>
+<input type ="button" id="post" value="POST" style="background-color:#00FF00;font-size: 20px" onclick="send_req()">
+</body>
+</html>
+

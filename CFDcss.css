@@ -1,0 +1,186 @@
+.fillclass
+{
+    top: 100px;
+    box-shadow: 10px 10px grey;
+      position: absolute;
+    width:100px;
+    height:255px;
+    left:10px;
+}
+#ge
+{
+   position: relative;
+    width:70px;
+    height: 40px;
+    font-size: 15px;
+}
+#cs
+{
+position: relative;
+    width:90px;
+    height: 40px;
+    font-size: 15px;
+}
+#im
+{
+position: relative;
+    width:60px;
+    height: 40px;
+    font-size: 15px;
+}
+#lu
+{
+position: relative;
+    width:70px;
+    height: 40px;
+    font-size: 15px;
+}
+#ta
+{
+position: relative;
+    width:80px;
+    height: 40px;
+    font-size: 15px;
+}
+#ver
+{
+position: relative;
+    width:90px;
+    height: 40px;
+    font-size: 15px;
+}
+#cou 
+{
+    position: relative;
+    width:80px;
+    height: 40px;
+    font-size: 15px;
+}
+
+#entertext
+{
+    border-radius: 25px;
+    background: #73AD21;
+    height:140px;
+    width: 500px;
+    font-size: 30px;
+    left:40px;
+    background-color:white;
+}
+#previewtext
+{
+    border-radius: 25px;
+    position: relative;
+    width:500px;
+    height: 140px;
+    font-size: 30px;
+}
+#fontbutton
+{
+     border-radius: 25px;
+    position: relative;
+    font-size:20px;
+    width:180px;
+    height:55px;
+    top:75px;
+}
+#colorbutton
+{
+     border-radius: 25px;
+    position: relative;
+    width:180px;
+    height:55px;
+    top:85px;
+}
+.fontclass
+{
+    position: relative;
+    top:400px;
+    width:1000px;
+    height:55px;
+}
+.colorclass
+{
+    position: relative;
+    top:420px;
+    width:1000px;
+    height:55px;
+}
+#wrapper
+{
+     border-radius: 25px;
+    background: #73AD21;
+    position: absolute;
+    background-color: white;
+    top:120px;
+    width:500px;
+    height:255px;
+    left:800px;
+    font-size:40px;
+}
+#a1
+{
+    border-radius: 25px;
+    width:50px;position: relative;
+    height:55px;
+}
+#a2
+{
+     border-radius: 25px;
+     width:50px;position: relative;
+    height:55px;
+}
+#a3
+{
+     border-radius: 25px;
+     width:50px;position: relative;
+    height:55px;
+}
+#a4
+{
+     border-radius: 25px;
+     width:50px;position: relative;
+    height:55px;
+}
+#a5
+{
+     border-radius: 25px;
+     width:50px;position: relative;
+    height:55px;
+}
+#a6
+{
+     border-radius: 25px;
+     width:50px;position: relative;
+    height:55px;
+}
+#a7
+{
+    border-radius: 25px;
+     width:50px;position: relative;
+    height:55px;
+}
+.prevclass
+{
+      position: absolute;
+    left: 600px;
+    width:100px;
+    height:55px;
+    top:20px;
+}
+.fillclass
+{
+      position: absolute;
+    width:100px;
+    height:55px;
+    left: 100px;
+}
+#post
+{
+    transition-timing-function: ease-in-out;
+    position: absolute;
+    left: 1000px;
+    width:100px;
+    height:55px;
+    top:400px;
+}
